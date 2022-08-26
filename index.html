@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div id="main">
+        <form action=""name="calcul">
+            <input type="text" name="inp_val" class="inp1"> 
+            <input type="button" name="" id="" class="inp2" value="C" onclick="calcul.inp_val.value =''">
+            <br> <br>
+            <input type="button" value="1" onclick="calcul.inp_val.value +='1'" class="inp3">
+            <input type="button" value="2" onclick="calcul.inp_val.value +='2'" class="inp3">
+            <input type="button" value="3" onclick="calcul.inp_val.value +='3'" class="inp3">
+            <input type="button" value="/" onclick="calcul.inp_val.value +='/'" class="inp2">
+            <br><br>
+            <input type="button" value="4" onclick="calcul.inp_val.value +='4'" class="inp3">
+            <input type="button" value="5" onclick="calcul.inp_val.value +='5'" class="inp3">
+            <input type="button" value="6" onclick="calcul.inp_val.value +='6'" class="inp3">
+            <input type="button" value="*" onclick="calcul.inp_val.value +='*'" class="inp2">
+            <br><br>
+            <input type="button" value="7" onclick="calcul.inp_val.value +='7'" class="inp3">
+            <input type="button" value="8" onclick="calcul.inp_val.value +='8'" class="inp3">
+            <input type="button" value="9" onclick="calcul.inp_val.value +='9'" class="inp3">
+            <input type="button" value="-" onclick="calcul.inp_val.value +='-'" class="inp2">
+            <br><br>
+            <input type="button" value="." onclick="calcul.inp_val.value +='.'" class="inp3">
+            <input type="button" value="0" onclick="calcul.inp_val.value +='0'" class="inp3">
+            <input type="button" value="=" onclick="calcul.inp_val.value =eval(calcul.inp_val.value)" class="inp3">
+            <input type="button" value="+" onclick="calcul.inp_val.value +='+'" class="inp2">
+        </form>
+    </div>
+</body>
+</html>
