@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-family: "Fira Sans", sans-serif;
+    background-color: rgb(228, 74, 100);
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+#main{
+    background-color: rgb(60, 135, 122);
+    margin:auto;
+    width:35%;
+    height: 400px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-top: 5%;
+    align-items: center;
+}
+
+form{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.inp1{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.5rem;
+    width:78%;
+    height:2.3rem;
+    border-radius: 5px;
+}
+.inp2{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.5rem;
+    width:12%;
+    height:2.6rem;
+    border: none;
+    border-radius: 5px;
+    margin-left:5px;
+}
+.inp3{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.5rem;
+    width:25%;
+    height:2.6rem;
+    border:none;
+    border-radius: 5px;
+    margin:2px;
+}
